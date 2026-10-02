@@ -1,0 +1,10 @@
+services:
+  spark:
+    image: spark:3.5.8-python3
+    container_name: spark-project
+    volumes:
+      - ./data:/opt/spark-data
+      - ./src:/opt/spark-apps
+    working_dir: /opt/spark-apps
+    entrypoint: ["/bin/bash"]
+    command: ["-c", "sleep infinity"]

@@ -1,0 +1,24 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated Spark outputs
+data/silver/
+data/gold/
+data/quarantine/
+data/test_parquet/
+data/raw/
